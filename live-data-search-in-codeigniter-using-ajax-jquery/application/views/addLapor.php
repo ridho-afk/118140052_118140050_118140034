@@ -82,10 +82,10 @@
                 <label>aspek</label>
                 <select name="aspek" class="form-control">
                     <option value="Infrastruktur">Infrastruktur</option>
-                    <option value="Pemerintahan">Pemerintahan</option>
-                    <option value="Hukum">Hukum</option>
-                    <option value="Kesehatan">Kesehatan</option>
-                    <option value="Pekerjaan">Pekerjaan</option>
+                    <option value="Dosen">Dosen</option>
+                    <option value="Staff">Staff</option>
+                    <option value="Mahasiswa">Mahasiswa</option>
+                    <option value="Pengajaran">Pengajaran</option>
                 </select>
                 <p><?php echo  form_error('aspek'); ?></p>
             </div>
